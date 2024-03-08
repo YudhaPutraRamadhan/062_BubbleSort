@@ -54,3 +54,13 @@ void display() {
 	cout << "Jumlah pas = " << n - 1 << endl;
 	cout << endl;
 }
+
+int main() {
+
+	input();
+	BubbleSortArray();
+	display();
+	system("pause");
+
+	return 0;
+}
